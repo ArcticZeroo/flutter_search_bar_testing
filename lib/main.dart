@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_search_bar_testing/app/views/expanding_search_bar.dart';
+import 'package:flutter_search_bar_testing/app/views/home.dart';
 
 void main() {
   runApp(MyApp());
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       ),
       darkTheme:
           ThemeData(primarySwatch: Colors.blue, brightness: Brightness.light),
-      home: ExpandingSearchBar(),
+      home: HomeView(),
     );
   }
 }
